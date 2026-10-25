@@ -201,40 +201,40 @@ VariationCount=0
 ParamVariationCount=0
 
 [Parameter1]
-Name=CheckedBy
-Value=
+Name=Version
+Value=01
 
 [Parameter2]
-Name=Decimal_Number_PCB
-Value=ГИДР.123456.002
+Name=Title2
+Value=аппарата НУЛИНА
 
 [Parameter3]
-Name=Decimal_Number_Shematic
-Value=ГИДР.123456.001
+Name=Title1
+Value=Материнская плата
 
 [Parameter4]
-Name=DrawnBy
-Value=Карманов С.
+Name=Title
+Value=Материнская плата аппарата НУЛИНА
 
 [Parameter5]
 Name=Release_Date
-Value=31.05.25
+Value=99.99.99
 
 [Parameter6]
-Name=Title
-Value=Преобразователь из 15В в 300В
+Name=DrawnBy
+Value=Глеб Ш. и Катя С.
 
 [Parameter7]
-Name=Title1
-Value=Преобразователь из
+Name=Decimal_Number_Shematic
+Value=ГИДР.123456.001
 
 [Parameter8]
-Name=Title2
-Value=15В в 300В
+Name=Decimal_Number_PCB
+Value=ГИДР.123456.002
 
 [Parameter9]
-Name=Version
-Value=01
+Name=CheckedBy
+Value=
 
 [Configuration1]
 Name=Sources
@@ -658,6 +658,11 @@ OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
+OutputType10=GOSTBOM
+OutputName10=GOST BOM
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -951,7 +956,6 @@ Type155=1
 Type156=1
 Type157=1
 Type158=1
-Type159=1
 
 [Difference Levels]
 Type1=1
@@ -1040,7 +1044,6 @@ Type83=1
 Type84=1
 Type85=1
 Type86=1
-Type87=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1204,8 +1207,6 @@ Type158=0
 Type159=0
 Type160=0
 Type161=0
-Type162=1
-Type163=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
